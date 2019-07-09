@@ -32,13 +32,13 @@ export default class Item extends Component {
             <div className="col-md-6 col-lg-4">
                 <div className="card">
                     <h5 className="card-header d-flex">
-                        <input className="flex-grow-1" value={this.props.item.title} onChange={this.titleChange.bind(this, this.props.index)} placeholder="标题..."></input>
+                        <input className="flex-grow-1" value={this.props.item.title} onChange={this.titleChange.bind(this, this.props.index)} placeholder="标题..." tabIndex={this.props.index + "1"}></input>
                         <button type="button" className="close ml-2" aria-label="Close" onClick={this.del.bind(this, this.props.index)}>
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </h5>
                     <div className="card-body">
-                        <textarea value={this.props.item.content} onChange={this.contentChange.bind(this, this.props.index)} placeholder="内容...">{this.props.item.content}</textarea>
+                        <textarea value={this.props.item.content} onChange={this.contentChange.bind(this, this.props.index)} placeholder="内容..." tabIndex={this.props.index + "2"}>{this.props.item.content}</textarea>
                     </div>
                     <div className="card-footer text-muted">
                         {this.props.item.date}
