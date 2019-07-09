@@ -1,0 +1,25 @@
+.navbarHeader {
+    background-color: rgba(0, 0, 0, .9);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    padding: 1px 0;
+    box-shadow: 0 3px 10px  #333;
+}
+
+.navbarHeader .logo {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+.navbarHeader .logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbarHeader button {
+    outline: none;
+}
+
+.navbarHeader button:focus {
+    outline: 0;
+}

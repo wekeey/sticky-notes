@@ -1,0 +1,19 @@
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .8);
+    line-height: 50px;
+    position: absolute;
+    bottom: 0;
+    color: #888;
+}
+
+footer a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
