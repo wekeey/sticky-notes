@@ -1,0 +1,25 @@
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body textarea {
+    width: 100%;
+    min-height: 160px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.card-header, .card-footer {
+    border: none;
+}
+
+.card-header input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.card-header button {
+    outline: none;
+}
